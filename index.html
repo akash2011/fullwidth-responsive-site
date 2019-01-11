@@ -15,22 +15,18 @@
 
 <body>   
 
-    <header class="header-fixed">
-        <div class="header-limiter">      
-          <h1><a href="#">Company<span>logo</span></a></h1>      
-          <nav>
-            <a href="#">Home</a>
-            <a href="#" class="selected">Blog</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#">Faq</a>
-            <a href="#">Contact</a>
-          </nav>      
-        </div>      
-      </header>      
-      
-      <!-- You need this element to prevent the content of the page from jumping up -->
-      <div class="header-fixed-placeholder"></div>
+    <header class="header">
+        <a href="" class="logo">ASHRAFUL KABIR</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+
 <div id="fullpage">   
 
   <div class="section" id="section1">
@@ -48,16 +44,84 @@
   <!--End of second section-->
 
   <div class="section" id="section3">
-    <div class="slide" id="slide1"> Slide 1 </div>
-    <div class="slide" id="slide2"> Slide 2 </div>
-    <div class="slide" id="slide3"> Slide 3 </div>
-    <div class="slide" id="slide4"> Slide 4 </div>
-  </div>
+    <h1>Experiences</h1>
+  </div>  
   <!--End of third section-->
 
   <div class="section" id="section4">
-    <h1>Experiences</h1>
+    <h1>Portfolio</h1>
+    <div class="button-group filters-button-group">
+        <button class="button is-checked" data-filter="*">all</button>
+        <button class="button" data-filter=".beach">beach</button>
+        <button class="button" data-filter=".bird">bird</button>
+        <button class="button" data-filter=".boat">boat</button>
+        <button class="button" data-filter=".lighthouse">lighthouse</button>
+        <button class="button" data-filter=".people">people</button>
+        <button class="button" data-filter=".rock">rock</button>
+        <button class="button" data-filter=".sea">sea</button>
+    </div>
+    
+    <section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+        <article class="beach people sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach1.jpg" class="img-responsive" />
+        </article>
+        <article class="beach bird">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/bird3.jpg" class="img-responsive" />
+        </article>
+        <article class="sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea2.jpg" class="img-responsive" />
+        </article>
+        <article class="beach people rock sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach2.jpg" class="img-responsive" />
+        </article>
+        <article class="beach sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach3.jpg" class="img-responsive" />
+        </article>
+        <article class="bird">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/bird1.jpg" class="img-responsive" />
+        </article>
+        <article class="bird">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/bird2.jpg" class="img-responsive" />
+        </article>
+        <article class="sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea4.jpg" class="img-responsive" />
+        </article>
+        <article class="lighthouse rock sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/lighthouse1.jpg" class="img-responsive" />
+        </article>
+        <article class="boat">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/boat2.jpg" class="img-responsive" />
+        </article>
+        <article class="lighthouse sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/lighthouse2.jpg" class="img-responsive" />
+        </article>
+        <article class="beach people">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/people1.jpg" class="img-responsive" />
+        </article>
+        <article class="rock sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/rock3.jpg" class="img-responsive" />
+        </article>
+        <article class="boat lighthouse sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/boat1.jpg" class="img-responsive" />
+        </article>
+        <article class="boat sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea1.jpg" class="img-responsive" />
+        </article>
+        <article class="rock sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/rock2.jpg" class="img-responsive" />
+        </article>
+        <article class="beach">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach4.jpg" class="img-responsive" />
+        </article>
+        <article class="rock sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea3.jpg" class="img-responsive" />
+        </article>
+        <article class="people rock sea">
+            <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/rock1.jpg" class="img-responsive" />
+        </article>
+    </section>
   </div>
+  
   <!--End of fourth section-->
 
   <div class="section" id="section5">
@@ -74,9 +138,14 @@
 <!--End of full page-->
 
 <!--- JQuery library-->
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
 <!---Fullpage minimum js-->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script>
+
+<script src='https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007714979/custom/page/hack-a-thon-3/masonry.min.min.js'></script>
+<script src='https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007849180/custom/page/hack-a-thon-3/isotope.min.js'></script>
+
+
 <!--Custom javascript-->
 <script  src="custom.js"></script>
 
