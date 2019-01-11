@@ -44,9 +44,7 @@ $(document).ready(function() {
     
     $(window).bind("load", function() {
       $('#all').click();
-    });
-    
+    });   
 
 
 });
-
