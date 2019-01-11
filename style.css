@@ -31,6 +31,17 @@ color:#f00;
 cursor:pointer;
 transform:scale(1.2) rotate(10deg);
 }
+/* Global container */
+.container{
+	max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container p{
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: futura book;
+}
 /* header */
 .header {
   background-color:transparent;
@@ -51,7 +62,8 @@ transform:scale(1.2) rotate(10deg);
 .header li a {
   display: block;
   padding: 20px;
-  text-decoration: none;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .header li a:hover,
@@ -253,8 +265,29 @@ background-color:#eee;
 #section2{
 background-color:rgb(238,223,252); 
 }
+
 #section3{
 background-color:rgb(130,213,157); 
+}
+.experiences-content{
+	width: 100%;
+	margin: 50px 0;
+	border: 1px solid #fff;
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+}
+.logo{
+width:40%;
+float: left;
+}
+.logo img{
+	vertical-align: bottom;
+}
+.company{
+width:55%;
+float: left;
+margin-left: 5%;
 }
 .slide{
 background-size:cover;
