@@ -9,7 +9,6 @@ $(document).ready(function() {
       controlArrows:false,
     });
     /* End of full page */
-
     
     var $grid = $('.grid').isotope({
       itemSelector: 'article'
